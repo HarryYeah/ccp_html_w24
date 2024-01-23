@@ -1,0 +1,86 @@
+header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    position: scroll;
+}
+
+header li{
+    float: left;
+
+    padding: 12px 15px; 
+    margin-right: 12px;
+    margin-bottom: 12px;
+    background-color:rgb(66, 39, 244);
+
+    border: solid rgb(206, 213, 0);
+    border-width: 0px 3px 3px 0px;
+}
+
+header li a {
+    text-decoration: none;
+    color: yellow; 
+    display: block; 
+}
+
+
+
+
+
+.container1{
+    display: flex;
+}
+
+.container2{
+    display: block;
+}
+
+.container3{
+    width: 75%;
+}
+
+.horizontal{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+
+
+
+.active{
+    background-color: rgb(73, 73, 73);
+}
+
+.active a{
+    color: white;
+}
+
+header li:hover{
+    border: dashed 3px rgb(255, 255, 255);
+}
+
+
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main, header>h1{
+    margin-left: 80px; 
+    margin-right: 80px;
+}
+
+img, video{
+    padding-right: 24px;
+}
+
+em{
+    font-size: x-large;
+    color: rgb(66, 39, 244);
+    font-weight: bold;
+}
